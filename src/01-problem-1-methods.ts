@@ -1,4 +1,4 @@
-type AnyObject = { [key: string]: any };
+export type AnyObject = { [key: string]: any };
 
 export class User {
   public id: number;
